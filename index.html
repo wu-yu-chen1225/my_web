@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>赤雪的網站</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="logo"></span>
+      <strong>赤雪的網站</strong>
+    </div>
+    <nav class="nav">
+      <a data-link href="#/home">首頁</a>
+      <a data-link href="#/news">最新消息</a>
+      <a data-link href="#/gas">抱怨專區</a>
+      <a data-link href="#/love">感情史</a>
+      <a data-link href="#/blog">部落格</a>
+      <button id="themeBtn" title="切換深淺色">🌗</button>
+    </nav>
+  </header>
+
+  <main id="app" class="container" aria-live="polite">
+    <!-- 這裡會載入各分頁 -->
+  </main>
+
+  <footer class="site-footer">© <span id="year"></span> 赤雪</footer>
+
+  <script src="main.js"></script>
+  <script src="blog.js"></script>
+</body>
+</html>
